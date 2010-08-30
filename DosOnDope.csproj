@@ -69,6 +69,7 @@
     <None Include="Controllers\Blog\add.cmd" />
     <None Include="Controllers\Blog\Index.bat" />
     <None Include="Controllers\Blog\view.bat" />
+    <Content Include="Content\li.png" />
     <Content Include="Controllers\Home\Index.bat" />
     <Content Include="Controllers\_actionMissing.bat" />
     <Content Include="Controllers\_controllerMissing.bat" />
@@ -100,7 +101,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>13174</DevelopmentServerPort>
+          <DevelopmentServerPort>11835</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

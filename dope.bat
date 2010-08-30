@@ -136,6 +136,7 @@ Copy %LOCN%Global.asax %2%\Global.asax
 
 echo ...adding logo and favicon
 Copy %LOCN%Content\logo.png %2%\Content\logo.png
+Copy %LOCN%Content\li.png %2%\Content\li.png
 Copy %LOCN%favicon.ico %2%\favicon.ico
 
 echo ...adding partial for header 
@@ -296,7 +297,7 @@ echo echo [a href='index']back[/a] >> ..\Controllers\%controller%\add.bat
 echo @echo off > ..\Controllers\%controller%\add.cmd
 echo REM Determine the next ID value... >> ..\Controllers\%controller%\add.cmd 
 echo SET /A ID=1 >> ..\Controllers\%controller%\add.cmd 
-echo FOR /F "eol=; tokens=1,2,3,* skip=2 delims=`" %%%%i in (..\..\Models\Posts.csv) do ( >> ..\Controllers\%controller%\add.cmd 
+echo FOR /F "eol=; tokens=1,2,3,* skip=1 delims=`" %%%%i in (..\..\Models\Posts.csv) do ( >> ..\Controllers\%controller%\add.cmd 
 echo   (SET /A ID=%%ID+1) >> ..\Controllers\%controller%\add.cmd 
 echo ) >> ..\Controllers\%controller%\add.cmd 
 
@@ -317,7 +318,7 @@ echo EXIT 31 >> ..\Controllers\%controller%\add.cmd
 
 echo @echo off > ..\Controllers\%controller%\view.bat
 echo IF x"%%1"==x"" GOTO EMPTY >> ..\Controllers\%controller%\view.bat
-echo FOR /F "eol=; tokens=1-20 skip=2 delims=`" %%%%1 in (..\..\Models\%2s.csv) do ( >> ..\Controllers\%controller%\view.bat
+echo FOR /F "eol=; tokens=1-20 skip=1 delims=`" %%%%1 in (..\..\Models\%2s.csv) do ( >> ..\Controllers\%controller%\view.bat
 echo   IF %%%%1==%%1 ( >> ..\Controllers\%controller%\view.bat
 echo     call ..\..\Views\Shared\_header %%%%2 >> ..\Controllers\%controller%\view.bat
 echo     call ..\..\h\h1 %%%%2 >> ..\Controllers\%controller%\view.bat
@@ -337,9 +338,9 @@ echo ECHO [a href='/%controller%/index']back...[/a] >> ..\Controllers\%controlle
 
 echo @echo off > ..\Controllers\%controller%\index.bat
 echo call ..\..\Views\Shared\_header %controller% %2s >> ..\Controllers\%controller%\index.bat
-echo call ..\..\h\h1 %controller% %2S >> ..\Controllers\%controller%\index.bat
+echo call ..\..\h\h1 %controller% %2s >> ..\Controllers\%controller%\index.bat
 echo echo [blink][em]Built with DOS on Dope[/em][/blink] >> ..\Controllers\%controller%\index.bat
-echo FOR /F "eol=; tokens=1-20 skip=2 delims=`" %%%%1 in (..\..\Models\%2s.csv) do ( >> ..\Controllers\%controller%\index.bat
+echo FOR /F "eol=; tokens=1-20 skip=1 delims=`" %%%%1 in (..\..\Models\%2s.csv) do ( >> ..\Controllers\%controller%\index.bat
 
 echo   call ..\..\h\h1 %%%%2 >> ..\Controllers\%controller%\index.bat
 for /L %%i in (3,1,%ID%) do (
