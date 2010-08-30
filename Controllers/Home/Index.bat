@@ -30,4 +30,3 @@ echo echo [[p]]Hello world![[/p]]
 echo [[ctrl-Z]][/pre][/blockquote]
 
 
-::echo [blockquote][pre]"C:\Temp\Blog\Controllers\Home\Index.bat"[/pre][/blockquote]
