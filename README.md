@@ -1,5 +1,8 @@
 # DOS on DOPE
 
+![logo](docs/Dos_on_Dope_Logo.png)
+
+
 *The last MVC Web framework you'll ever need*
 
 When you've done everything you can with [Ruby On Rails](http://rubyonrails.org/)
@@ -29,7 +32,5 @@ _Look behind the curtain to see how the magic is made_
 ### [Introduction at secretGeek](http://secretgeek.net/dod_intro)
 
 
-![docs/dod_congrats.png]
-
-![](Home_dod_congrats.png)
+![you've put dos on dope](docs/Home_dod_congrats.png)
 
