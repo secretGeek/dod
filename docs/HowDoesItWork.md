@@ -11,7 +11,7 @@ Where:
 
  * `"Controller"` is the name of a **folder** in the Controllers folder.
  * `"Action"` is the name of a **batch file** in the relevant controller folder.
- * `"**id"` is an optional set of **parameters** passed to the batch file.
+ * `"*id"` is an optional set of **parameters** passed to the batch file.
 
 (Turning a URL into a batch file call is performed by a custom C# router, `DosOnDopeRouteHandler` which hands off to the http handler `DosOnDopeHttpHandler`)
 
@@ -40,14 +40,13 @@ A `GET` to `http://YourSite.com/Blog/View/Yes` would cause the handler to execut
 
 So, inside the `View.bat` script, you could say:
 
-	@echo [p](p)Hello! You said %1.[/p](_p)
-
+	@echo [p]Hello! You said %1.[/p]
 Which would be converted into:
 
 	<p>Hello! You said Yes.</p>
 
 And be rendered by a browser as:
 
-  Hello! You said Yes.
+> Hello! You said Yes.
 
 (By the way, echoing user input from a URL to the screen is a very safe and wise thing to do. Do that any chance you can.)
