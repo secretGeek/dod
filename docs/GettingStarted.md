@@ -1,3 +1,5 @@
+# Getting started
+
 To get started open a `cmd` window.
 If you're not familiar with a `cmd` window, you soon will be. ;-)
 
@@ -12,6 +14,8 @@ If `dope.bat` is in the folder `C:\DoD` then type this:
 
 `dope` will then be in your path.
 
+
+# Create a web application
 
 Okay. Moving on. 
 First step, navigate to a folder where you want to create your web application.
@@ -40,6 +44,7 @@ e.g.
     dope help site
 
 
+# Wrestling with IIS
 
 IIS is a little hard to control from the console, so you'll need to open IIS manager and register your site manually. Read the sidebar about how to do that.
 
@@ -52,12 +57,16 @@ Add a virtual directory under the `Default Web Site`
 Then right click and 'convert to application'
 Browse to the newly created application. 
 
+
+# Did that work??
+
 Let's check in a browser that our new site is built.
 
 ![congrats](GettingStarted_dod_congrats.png)
 
 Oops. It worked. We're up and running.
 
+# Exploring our new app
 
 It's generated the complete skeleton of the application. Here's what we see in the console:
 
@@ -103,6 +112,9 @@ We have our site, and it shows the starting application. Let's create a new cont
 
 ![action](GettingStarted_about_action.png)
 
+
+# Making it betterer
+
 In this case, our batch file is basically a series of echo statements that write html to the screen. Instead of angle brackets we use square brackets. (This is because DOS uses angle brackets for re-direction.)
 
 We can do a little better than that. 
@@ -143,6 +155,8 @@ Now, if we look in the Home controller we see four batch files that have been cr
     view.bat
 
 Notice there is an `add.bat` as well as an `add.cmd`. What's the difference? 
+
+# The secret being DoD
 
 **In DosOnDope, `GET` verbs are handled by Batch files (.bat), while `POST` verbs are handled by `.cmd` files.**
 
