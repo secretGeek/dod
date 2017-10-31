@@ -50,3 +50,10 @@ And be rendered by a browser as:
 > Hello! You said Yes.
 
 (By the way, echoing user input from a URL to the screen is a very safe and wise thing to do. Do that any chance you can.)
+
+Why not read about [Getting started](GettingStarted.md)
+
+Dave's not here currently. Man. etc.
+
+Maybe read the original blog post about this nonsense at [secretGeek: dos on dope](http://secretgeek.net/dod_intro)
+
