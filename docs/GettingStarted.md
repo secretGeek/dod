@@ -156,7 +156,7 @@ Now, if we look in the Home controller we see four batch files that have been cr
 
 Notice there is an `add.bat` as well as an `add.cmd`. What's the difference? 
 
-# The secret being DoD
+# The secret behind DoD... shhh... don't tell anyone.....
 
 **In DosOnDope, `GET` verbs are handled by Batch files (.bat), while `POST` verbs are handled by `.cmd` files.**
 
