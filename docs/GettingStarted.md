@@ -192,4 +192,10 @@ That's about it. We've demonstrated all the components you need to make wonderfu
 
 Best of luck. I hope dope is good to you.
 
+Now you might want to read about [How does it work?](HowDoesItWork.md)
+
+Are you look for David? David is not here currently. Man.
+
+Maybe go and read some of the stuff at [secretGeek](http://secretGeek.net)
+
 
