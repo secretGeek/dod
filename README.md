@@ -1,6 +1,6 @@
-# dod
-*DOS on dope. The last MVC Web framework you'll ever need*
+# DOS on DOPE
 
+*The last MVC Web framework you'll ever need*
 
 When you've done everything you can with [Ruby On Rails](http://rubyonrails.org/)
 
@@ -18,13 +18,18 @@ The model is based on batch files. The helper functions are... you guessed it! B
 
 (Okay, I'm no purist. There's a few lines of C# for url routing and batch file execution. Everything else is either a .bat or a .cmd file. With a liberal helping of .csv mixed in.)
 
-! [Getting Started](GettingStarted)
+# [Getting Started](docs/GettingStarted.md)
+
 _See how to build a site in just seconds!_
 
-!! [How Does It Work?](HowDoesItWork)
+## [How Does It Work?](docs/HowDoesItWork.md)
+
 _Look behind the curtain to see how the magic is made_
 
-!!! [Introduction at secretGeek](http://secretgeek.net/dod_intro)
+### [Introduction at secretGeek](http://secretgeek.net/dod_intro)
 
 
-![dod_congrats.png]
+![docs/dod_congrats.png]
+
+![](Home_dod_congrats.png)
+
