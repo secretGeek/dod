@@ -23,8 +23,8 @@ If there is no batch file matching the name of the `action` that was called, the
 
 This is the default `_actionMissing` batch file included in every DosOnDope application. It returns a web page telling you what actions are available for the controller you requested. You are free to customize it however you wish.
 
-If the request is a `GET` method, then handler looks for a `.bat` batch file 
-If the request is a `POST` method, then handler looks for a `.cmd` batch file 
+* If the request is a `GET` method, then handler looks for a `.bat` batch file.
+* If the request is a `POST` method, then handler looks for a `.cmd` batch file. 
 
 So for example a `GET` request to `http://YourSite.com/Blog/Add` would cause the handler to execute a batch file located at
 
