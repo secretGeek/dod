@@ -7,7 +7,7 @@
 
 When you've done everything you can with [Ruby On Rails](http://rubyonrails.org/)
 
-When you've reached the limits of [Haskell on a Horse](http://haskell.on-a-horse.org/)
+When you've reached the limits of *Haskell on a Horse* and *Cobol on Cogs*...
 
 It's time to meet _the MVC Web Framework to end all MVC Web frameworks._
 
